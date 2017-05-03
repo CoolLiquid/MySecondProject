@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'realm-android'
 
 android {
     compileSdkVersion 25
@@ -29,4 +30,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.2.0'
     testCompile 'junit:junit:4.12'
     compile 'com.squareup.okhttp3:okhttp:3.7.0'
+    compile 'com.android.support:design:25.0.0'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+
 }
